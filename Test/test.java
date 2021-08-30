@@ -9,6 +9,11 @@ public class test {
         assertEquals("I", toRoman(1));
     }
 
+    @Test
+    void shouldConvert2toII(){
+        assertEquals("II", toRoman(2));
+    }
+
     private String toRoman(int i) {
         return "I";
     }
