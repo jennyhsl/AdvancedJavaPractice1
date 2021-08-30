@@ -14,6 +14,11 @@ public class test {
         assertEquals("II", toRoman(2));
     }
 
+    @Test
+    void shouldConvert3toIII(){
+        assertEquals("III", toRoman(3));
+    }
+
     private String toRoman(int i) {
         if (i == 2){
             return "II";
